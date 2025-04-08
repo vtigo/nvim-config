@@ -10,6 +10,11 @@ return {
             { "<leader>f", group = "Fuzzy Finder" },
             { "<leader>h", group = "Harpoon" },
             { "<leader>u", group = "Undo Tree" },
+            { "<leader>v", group = "LSP" },
+            { "<leader>v", group = "LSP" },
+            { "<leader>vc", group = "Code" },
+            { "<leader>vr", group = "References" },
+            { "<leader>vw", group = "Workspace" },
         })
     end,
 }

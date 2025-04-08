@@ -1,0 +1,20 @@
+<BS># Compiled Lua sources
+luac.out
+
+# Plugin directory (if you're not using a plugin manager that tracks plugins in Git)
+plugin/packer_compiled.lua
+
+
+# Swap files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session files
+Session.vim
+
+# Temporary files
+.netrwhist
+*~

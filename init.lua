@@ -1,5 +1,6 @@
 require('config.options')
 require('config.lazy')
+require('floaterm')
 require('config.keymaps')
 
 vim.cmd('colorscheme rose-pine')

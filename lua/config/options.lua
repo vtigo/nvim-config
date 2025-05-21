@@ -4,6 +4,7 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
+
 -- identation
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
@@ -22,4 +23,5 @@ vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.scrolloff = 8
 
-
+-- cursor
+vim.opt.guicursor = ""

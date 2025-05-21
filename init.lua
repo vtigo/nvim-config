@@ -3,7 +3,7 @@ require('config.lazy')
 require('floaterm')
 require('config.keymaps')
 
-vim.cmd('colorscheme rose-pine')
+vim.cmd('colorscheme catppuccin-mocha')
 
 local autocmd = vim.api.nvim_create_autocmd
 

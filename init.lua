@@ -1,6 +1,6 @@
 require('config.options')
 require('config.lazy')
-require('floaterm')
+-- require('floaterm')
 require('config.keymaps')
 
 local autocmd = vim.api.nvim_create_autocmd

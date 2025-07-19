@@ -17,18 +17,26 @@ return {
       require("catppuccin").setup({
         transparent_background = true,
         integrations = {
-          cmp = true,
-          gitsigns = true,
-          nvimtree = true,
-          telescope = true,
-          treesitter = true,
-          which_key = true,
+            cmp = true,
+            gitsigns = true,
+            nvimtree = true,
+            telescope = true,
+            treesitter = true,
+            which_key = true,
         }
-      })
-
-      -- vim.cmd.colorscheme("catppuccin-mocha")
-      vim.cmd.colorscheme("bamboo")
+    })
     end
+  },
+  {
+      "neanias/everforest-nvim",
+      name = "everforest",
+      priority = 1000,
+      config = function()
+          require("everforest").setup({
+              transparent_background = true
+          })
+          vim.cmd.colorscheme("everforest")
+      end
   }
 }
 

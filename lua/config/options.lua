@@ -25,3 +25,6 @@ vim.opt.scrolloff = 8
 
 -- cursor
 vim.opt.guicursor = ""
+
+-- clipboard
+vim.opt.clipboard = "unnamedplus"
